@@ -1,0 +1,18 @@
+{
+  "name": "my-hercai-api",
+  "version": "1.0.0",
+  "description": "Una API que interactúa con Herc.ai",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",  // Script de inicio para el servidor
+    "dev": "nodemon index.js"  // Script de desarrollo con nodemon
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "hercai": "^12.4.0",
+    "body-parser": "^1.19.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
